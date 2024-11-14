@@ -16,7 +16,7 @@ Follow these steps to get the project up and running:
 
 ### Step 1: Clone the Laravel Project
 
-**Step 2: Install Dependencies**
+### Step 2: Install Dependencies
 Navigate to the project directory and install the required dependencies:
 
 composer create-project laravel/laravel ecommerce
