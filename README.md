@@ -68,8 +68,11 @@ password: 'password123'
 You can use the following Stripe test card to simulate payments during testing:
 
 Card Type: Visa
+
 Card Number: 4242424242424242
+
 Expiration Date: Any future date
+
 CVC: Any 3 digits
 
 
