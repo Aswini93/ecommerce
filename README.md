@@ -35,27 +35,36 @@ Publish the configuration files for Laravel Cashier:
 
 php artisan vendor:publish --tag="cashier-config"
 
-**Step 5: Set Up .env File**
+### Step 5: Set Up .env File
 Set up your .env file with your Stripe API credentials. You can get your credentials from your Stripe Dashboard (https://dashboard.stripe.com/test/apikeys):
+
 STRIPE_KEY=your_stripe_key
+
 STRIPE_SECRET=your_stripe_secret
 
-**Step 6: Generate Application Key**
+### Step 6: Generate Application Key
+
 Generate the application key for your Laravel project:
+
 php artisan key:generate
 
-**Step 7: Run Migrations and Seed Database**
+### Step 7: Run Migrations and Seed Database
+
 Run the migrations to create the required tables in your database:
+
 php artisan migrate
 
 php artisan db:seed
 
-**Step 8: Sample User for Testing**
+### Step 8: Sample User for Testing
+
 To test user authentication and payments, create a sample user with the following credentials:
+
 email:'jane.smith@example.com'
+
 password: 'password123'
 
-**Step 9: Sample Stripe Test Card**
+### Step 9: Sample Stripe Test Card
 You can use the following Stripe test card to simulate payments during testing:
 
 Card Type: Visa
