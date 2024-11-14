@@ -20,15 +20,19 @@ Follow these steps to get the project up and running:
 Navigate to the project directory and install the required dependencies:
 
 composer create-project laravel/laravel ecommerce
+
 cd ecommerce
+
 composer install
-**Step 3: Install Laravel Cashier**
+
+### Step 3: Install Laravel Cashier
 Next, install the Laravel Cashier package to handle Stripe payments:
 
 composer require laravel/cashier
 
-**Step 4: Publish Cashier Configuration**
+### Step 4: Publish Cashier Configuration
 Publish the configuration files for Laravel Cashier:
+
 php artisan vendor:publish --tag="cashier-config"
 
 **Step 5: Set Up .env File**
