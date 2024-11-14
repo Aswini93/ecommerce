@@ -1,5 +1,3 @@
-# ecommerce using stripe
-
 # Laravel E-Commerce with Stripe Payment Integration
 
 This is a simple Laravel-based eCommerce application with Stripe payment integration using Laravel Cashier. This project demonstrates how to set up and configure Laravel for Stripe payments, allowing users to make payments via Stripe using a test Visa card.
