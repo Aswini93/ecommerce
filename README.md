@@ -19,8 +19,6 @@ Follow these steps to get the project up and running:
 ### Step 2: Install Dependencies
 Navigate to the project directory and install the required dependencies:
 
-composer create-project laravel/laravel ecommerce
-
 cd ecommerce
 
 composer install
