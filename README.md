@@ -14,19 +14,18 @@ This is a simple Laravel-based eCommerce application with Stripe payment integra
 
 Follow these steps to get the project up and running:
 
-### Step 1: Create a New Laravel Project
-
-To create a new Laravel project, run the following command:
+### Step 1: Clone the Laravel Project
 
 **Step 2: Install Dependencies**
 Navigate to the project directory and install the required dependencies:
 
 composer create-project laravel/laravel ecommerce
-
-**Step 3: Install Laravel Cashier**
-Next, install the Laravel Cashier package to handle Stripe payments:
 cd ecommerce
 composer install
+**Step 3: Install Laravel Cashier**
+Next, install the Laravel Cashier package to handle Stripe payments:
+
+composer require laravel/cashier
 
 **Step 4: Publish Cashier Configuration**
 Publish the configuration files for Laravel Cashier:
